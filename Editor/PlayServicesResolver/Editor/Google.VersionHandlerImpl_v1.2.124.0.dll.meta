@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-guid: a1eeacea5fce49a6be1d1e602635d1e7
-labels:
-- gvh_version-1.2.122.0
-- gvh
-- gvh_targets-editor
+guid: 7ab719bdbf5ae43f1b8445e1b5af106c
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -11,7 +7,7 @@ PluginImporter:
   executionOrder: {}
   defineConstraints: []
   isPreloaded: 0
-  isOverridable: 0
+  isOverridable: 1
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
@@ -23,7 +19,7 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 0
+      enabled: 1
       settings:
         DefaultValueInitialized: true
   - first:

@@ -77,6 +77,7 @@ namespace Google.XR.ARCoreExtensions.Internal
         public static void UploadInstance()
         {
             var preloadedAssets = UnityEditor.PlayerSettings.GetPreloadedAssets().ToList();
+            preloadedAssets.RemoveAll(x => x == null);
             preloadedAssets.RemoveAll(x => x.GetType() == typeof(RuntimeConfig));
 
             if (Instance == null)
